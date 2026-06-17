@@ -282,7 +282,7 @@ Ambil screenshot berikut sebagai bukti pengerjaan tugas:
 
 ## 👨‍💻 Informasi Proyek
 
-- **Matakuliah:** Pemrograman Web / Library PHP
+- **Matakuliah:** Pengembangan Web Sisi Server
 - **Dosen:** Gede Herdian Setiawan, S.Kom., M.T.
 - **Institusi:** STIKOM Bali
 - **Tahun Akademik:** 2026
