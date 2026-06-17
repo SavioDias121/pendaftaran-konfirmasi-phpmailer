@@ -288,5 +288,3 @@ Ambil screenshot berikut sebagai bukti pengerjaan tugas:
 - **Tahun Akademik:** 2026
 
 ---
-
-*Dibuat sebagai bagian dari tugas latihan materi "Library PHP" di STIKOM Bali.*
