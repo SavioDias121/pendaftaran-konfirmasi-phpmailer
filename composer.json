@@ -1,0 +1,25 @@
+{
+    "name": "stikom-bali/pendaftaran-konfirmasi-phpmailer",
+    "description": "Proyek pendaftaran workshop STIKOM Bali menggunakan PHPMailer dan SMTP Gmail",
+    "type": "project",
+    "keywords": ["phpmailer", "smtp", "gmail", "composer", "stikom-bali"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahasiswa STIKOM Bali",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

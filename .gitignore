@@ -1,0 +1,58 @@
+# ============================================================
+# .gitignore untuk Proyek PHP - pendaftaran-konfirmasi-phpmailer
+# Dibuat untuk STIKOM Bali - Workshop Library PHP & Composer
+# ============================================================
+
+# --- Dependency Manager ---
+# Folder vendor dihasilkan oleh Composer, tidak perlu di-commit
+/vendor/
+
+# --- File Lingkungan (Environment) ---
+# File .env berisi kredensial sensitif, JANGAN pernah di-commit!
+.env
+.env.local
+.env.*.local
+
+# --- File Composer Lock (opsional) ---
+# Uncomment baris di bawah jika ingin mengabaikan composer.lock
+# composer.lock
+
+# --- File Cache & Log ---
+*.log
+*.cache
+/cache/
+/logs/
+/tmp/
+
+# --- File Konfigurasi IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- File Sistem Operasi ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# --- File Upload (jika ada) ---
+/uploads/
+
+# --- File Sensitif Lainnya ---
+config.local.php
+*.pem
+*.key
+*.p12
